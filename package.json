@@ -2,7 +2,7 @@
     "name": "open-daily-memo",
     "displayName": "open-daily-memo",
     "description": "Open a daily markdown file for memo",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "hitode909",
     "repository": {
         "type": "git",
@@ -38,6 +38,11 @@
                     "type": "string",
                     "default": "~/Documents/",
                     "description": "Directory to store memo files"
+                },
+                "daily-memo.datesep": {
+                    "type": "string",
+                    "default": "",
+                    "description": "separator of date string"
                 }
             }
         }
